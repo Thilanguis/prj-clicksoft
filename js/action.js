@@ -12,7 +12,9 @@ $(document).ready(function () {
 
 function excluir(id){
     if(confirm('Deseja realmente excluir este contato?'))
+    {
         location.href='excluir.php?idContato='+id; 
+    }
 }
 
 

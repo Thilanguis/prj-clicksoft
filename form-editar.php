@@ -27,7 +27,7 @@
         <div id="formAgenda">
             <form action="editar.php" method="post">
                 <div class="form-row">
-                   <input type="hidden" name="id" value="<?php echo $row["idContato"]; ?>">
+                   <input type="hidden" name="idContato" value="<?php echo $row["idContato"]; ?>">
                     <div class="form-group col-md-6">
                         <label for="nome">Nome</label>
                         <input type="text" class="form-control" id="nome" name="nome" value="<?php echo $row["nome"]; ?>">
