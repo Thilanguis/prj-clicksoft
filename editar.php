@@ -21,7 +21,7 @@
 
     include_once 'conexao.php';
     
-    $sql = "update contatos set nome ='".$nome."', email='".$email."', telefone1='".$telefone1."', telefone2='".$telefone2."', endereco = '".$endereco."' where id=".$id;
+    $sql = "update contatos set nome ='".$nome."', email='".$email."', telefone1='".$telefone1."', telefone2='".$telefone2."', endereco = '".$endereco."' where idContato=".$id;
 
     if(mysqli_query($con,$sql))  
     {
