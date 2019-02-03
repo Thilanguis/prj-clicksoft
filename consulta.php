@@ -58,8 +58,8 @@
                         echo "<td>".$row["endereco"]."</td>";
                         echo "<td>".$row["telefone1"]."</td>";
                         echo "<td>".$row["telefone2"]."</td>";
-                        echo "<td><a href='form-editar.php?id=".$row["id"]."'><i class='far fa-edit' id='edit'></i></a></td>";
-                        echo "<td><a href='#' onclick='excluir(".$row["id"].")'><i class='far fa-trash-alt' id='delet'></i></td>";
+                        echo "<td><a href='form-editar.php?id=".$row["idContato"]."'><i class='far fa-edit' id='edit'></i></a></td>";
+                        echo "<td><a href='#' onclick='excluir(".$row["idContato"].")'><i class='far fa-trash-alt' id='delet'></i></td>";
                         echo "</tr>";
                     } ?>
         </table>
