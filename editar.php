@@ -12,7 +12,7 @@
   
    <?php
     
-    $id         = $_POST["idContato"];
+    $idContato         = $_POST["idContato"];
     $nome       = $_POST["nome"];
     $email      = $_POST["email"];
     $endereco   = $_POST["endereco"];
@@ -21,7 +21,7 @@
 
     include_once 'conexao.php';
     
-    $sql = "update contatos set nome ='".$nome."', email='".$email."', telefone1='".$telefone1."', telefone2='".$telefone2."', endereco = '".$endereco."' where idContato=".$id;
+    $sql = "update contatos set nome ='".$nome."', email='".$email."', telefone1='".$telefone1."', telefone2='".$telefone2."', endereco = '".$endereco."' where idContato=".$idContato;
 
     if(mysqli_query($con,$sql))  
     {
