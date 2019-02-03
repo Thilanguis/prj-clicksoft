@@ -10,10 +10,10 @@
 <body>
     <div class="container">
         <?php 
-            if(isset($_GET["id"]))
+            if(isset($_GET["idContato"]))
             {
                 include_once 'conexao.php';
-                $sql = "delete from contatos where id=".$_GET["id"];
+                $sql = "delete from contatos where idContato=".$_GET["idContato"];
                 if(mysqli_query($con, $sql))
                 {
                     ?>

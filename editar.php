@@ -12,7 +12,7 @@
   
    <?php
     
-    $id         = $_POST["id"];
+    $id         = $_POST["idContato"];
     $nome       = $_POST["nome"];
     $email      = $_POST["email"];
     $endereco   = $_POST["endereco"];
