@@ -1,0 +1,135 @@
+.list-group{
+     width: 480px;
+    margin-top: 15px;
+    float: left;
+}
+
+#titulo{
+    font-size: 25px;
+    color: black;
+}
+
+#calendario{
+    font-size: 30px;
+    color: #337ab7;
+    
+}
+
+#disquete{
+    font-size: 20px;
+    margin-left: 27px;
+}
+
+#edit{
+    font-size: 20px;
+    margin-left: 28px;
+}
+
+#delet{
+    font-size: 20px;
+    margin-left: 22px;
+}
+
+#loopa{
+    font-size: 20px;
+    margin-left: 3px;
+}
+#botoesBusca{
+    margin-top: 10px;
+}
+
+#tabela{
+     width: 500px;
+    margin-top: 15px;
+   
+}
+
+#btnVoltar{ 
+    color: black;
+}
+
+#btnVoltarBusca{
+    float: left;
+}
+
+#edit{
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    margin-left: 12px;
+}
+
+#delet{
+    color: #a94442;
+    background-color: #f2dede;
+    margin-left: 15px;
+}
+
+
+#formAgenda{
+   width: 480px;
+    margin-top: 15px;
+    float: left;
+}     
+
+#btnSalvar{
+   margin-left: 290px;
+   
+}
+
+#btnVoltar{
+    margin-left: 20px;
+    color: black;
+}
+
+.fa-plus-circle{
+    color: #35a35b;
+}
+
+.fa-minus-circle{
+    color: #9f3229;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+#btnVoltar1{
+    color: black;
+    margin-top: 1px;
+    display: inline-block;
+}
+
+.nenhumRegistro{
+    margin-top: 15px;
+    margin-left: 580px;
+}
+
+#tabelaDinamica{
+    margin-top: 200px;
+}
+
+#h3Busca{
+    margin-left: 105px;
+    display: inline-block;
+}
+
+.alert{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#loopaBusca1{
+    margin: 2px;
+}
+
+#msgErro{
+   display: inline-block;
+    float: left;
+    margin-top: 30px;
+}
+
+
